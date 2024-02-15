@@ -7,36 +7,38 @@
     <title>Poem Generator</title>
   </head>
   <body>
-    <header><h1>Welcome to the poem generator</h1></header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The poem will go here
-        <br />
-        and here
-      </div>
-    </main>
+    <div class="container">
+      <header><h1>Welcome to the poem generator</h1></header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The poem will go here
+          <br />
+          and here
+        </div>
+      </main>
 
-    <footer>
-      This was coded by Larissa Nicholson, is
-      <a href="https://github.com/lissanicho/poem-generator" target="_blank"
-        >open sourced on Github</a
-      >
-      and is hosted on
-      <a href="https://keen-shortbread-1c3078.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
-
+      <footer>
+        This was coded by Larissa Nicholson, is
+        <a href="https://github.com/lissanicho/poem-generator" target="_blank"
+          >open sourced on Github</a
+        >
+        and is hosted on
+        <a href="https://keen-shortbread-1c3078.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
