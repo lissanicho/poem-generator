@@ -22,9 +22,7 @@ function generatePoem(event) {
     poemElement.innerHTML= `<div class="generating">Generating a poem about ${instructionsInput.value}</div>`
 
 
-console.log("Generating a poem");
-console.log(`prompt: ${prompt}`);
-console.log(`context: ${context}`);
+
 
 axios.get(apiURL).then(displayPoem);
 }
